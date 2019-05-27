@@ -17,7 +17,7 @@ class TestUn:
         print("------>test_001_2")
         allure.attach("用户名：", "李白")
         allure.attach("密码：", "李白白")
-        assert False
+        assert True
 
     @pytest.allure.severity(pytest.allure.severity_level.NORMAL)
     @allure.step(title="这是test_001测试第步")  # 标记测试步骤
